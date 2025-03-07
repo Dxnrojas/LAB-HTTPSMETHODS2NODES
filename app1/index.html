@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>¡Bienvenido a la batalla!</h1>
+    <form>
+      <label for="nombreJugador">Tu nombre</label>
+      <input
+        type="text"
+        id="nombreJugador"
+        placeholder="Ingresa tu nombre"
+        required
+      />
+
+      <div>
+        <input type="radio" name="jugada" id="piedra" value="piedra" required />
+        <label class="carta-jugada" for="piedra">Piedra 🪨</label>
+      </div>
+
+      <div>
+        <input type="radio" name="jugada" id="papel" value="papel" required />
+        <label class="carta-jugada" for="papel">Papel 📜</label>
+      </div>
+
+      <div>
+        <input
+          type="radio"
+          name="jugada"
+          id="tijeras"
+          value="tijeras"
+          required
+        />
+        <label class="carta-jugada" for="tijeras">Tijeras ✂️</label>
+      </div>
+
+      <button id="boton-jugar">✨¡Juega ya!✨</button>
+    </form>
+
+    <div
+      id="mensaje-confirmacion"
+      style="margin-top: 15px; font-size: 1.2rem"
+    ></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
