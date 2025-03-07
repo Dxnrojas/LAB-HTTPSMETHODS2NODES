@@ -1,3 +1,56 @@
-*{
+body {
     font-family: 'Poppins', sans-serif;
+    background:  #cca1e9;
+    color: #4a0072;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#estado-juego, #elecciones-jugadores, #resultado-juego {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 16px;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 2px solid #d0a2f7;
+}
+
+#resultado-juego h2 {
+    color: #b565f7;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Botones o acciones futuras */
+button {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    background: #b565f7;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background: #9b4de1;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(1px);
 }
